@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(131, 131, 253);
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+}
+#navigation > ul{
+    display: flex;
+    list-style: none;
+}
+#navigation > ul > li{
+    padding-left: 20px;
+}
+
+.box-container{
+    position: relative;
+}
+
+#desc{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#desc-title{
+    color: aqua;
+}
+
+
+.container{
+    /* top | right | bottom | left */
+    padding: 20px;
+}
+
+#about_me_img{
+    height: 450px;
+    width: 560px;
+    border-radius: 50%;
+    transition: transform 500ms;
+}
+#about_me_img:hover{
+    transform: rotate(360deg);
+}
+
+.skillset{
+    height: 150px;
+    width: 150px;
+}
+
+.skillset:hover{
+    padding: 20px;
+}
+
+.skill-progress{
+    background-color: red;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #about-flex{
+        display: flex;
+    }
+}
